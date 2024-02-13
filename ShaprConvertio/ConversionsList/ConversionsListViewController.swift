@@ -34,7 +34,7 @@ class ConversionsListViewController: UIViewController, FilePickable, AlertPresen
         let firstPart = NSAttributedString(string: "No conversions yet, tap ")
         let imageAttachment = NSTextAttachment(image: UIImage.add.withTintColor(Theme.convertButtonColor))
         let imagePart = NSAttributedString(attachment: imageAttachment)
-        let restOfText = NSAttributedString(string: " in top corner to start converting!")
+        let restOfText = NSAttributedString(string: " in top corner to start converting `.heif` to `.obj`!")
         let attributedString = NSMutableAttributedString()
         attributedString.append(firstPart)
         attributedString.append(imagePart)

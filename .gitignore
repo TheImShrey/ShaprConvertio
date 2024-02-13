@@ -7,6 +7,5 @@
 **/*.xcworkspace/xcshareddata/*.xccheckout
 **/*.xcworkspace/xcshareddata/*.xcscmblueprint
 **/*.playground/**/timeline.xctimeline
-/*.xcodeproj
 xcuserdata/
 DerivedData/
