@@ -69,7 +69,7 @@ class ConversionsListViewModel {
     private func createConversionTaskItem(for fileURL: URL) -> ItemViewModel {
         let conversionRequest = ConversionTask.Request(modelURL: fileURL,
                                                        destinationDirectory: environment.fileManager.documentsDirectoryURL,
-                                                       convertTo: .test)
+                                                       convertTo: .obj)
         
         let conversionTask = ConversionTask(for: conversionRequest,
                                             using: environment.fileManager,
